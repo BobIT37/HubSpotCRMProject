@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.qa.hubspot.tests.LoginPageTest" duration-ms="12089" started-at="2020-04-30T00:36:14 EDT" finished-at="2020-04-30T00:36:26 EDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="12089" started-at="2020-04-30T00:36:14 EDT" finished-at="2020-04-30T00:36:26 EDT">
+      <class name="com.qa.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="2110" started-at="2020-04-30T00:36:14 EDT" finished-at="2020-04-30T00:36:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@6500df86]" name="loginTest" duration-ms="9851" started-at="2020-04-30T00:36:16 EDT" finished-at="2020-04-30T00:36:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="103" started-at="2020-04-30T00:36:26 EDT" finished-at="2020-04-30T00:36:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.qa.hubspot.tests.LoginPageTest -->
+</testng-results>

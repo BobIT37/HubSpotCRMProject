@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HubSpot Regression Suite" duration-ms="57735" started-at="2020-05-04T01:12:56 EDT" finished-at="2020-05-04T01:13:54 EDT">
+    <groups>
+      <group name="sanity">
+        <method signature="LoginPageTest.verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="verifyLoginPageTitleTest" class="com.qa.hubspot.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@4248ed58]" name="verifyLoginPageTitleTest" class="com.qa.hubspot.tests.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="HubSpot Functional Regression Test -- firefox" duration-ms="57735" started-at="2020-05-04T01:12:56 EDT" finished-at="2020-05-04T01:13:54 EDT">
+      <class name="com.qa.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="setup" is-config="true" duration-ms="8062" started-at="2020-05-04T01:13:12 EDT" finished-at="2020-05-04T01:13:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="verifyLoginPageTitleTest" duration-ms="4064" started-at="2020-05-04T01:13:20 EDT" description="verify login page title" finished-at="2020-05-04T01:13:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="tearDown" is-config="true" duration-ms="2866" started-at="2020-05-04T01:13:24 EDT" finished-at="2020-05-04T01:13:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="setup" is-config="true" duration-ms="3387" started-at="2020-05-04T01:13:27 EDT" finished-at="2020-05-04T01:13:31 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="verifySignUpLinkTest" duration-ms="5278" started-at="2020-05-04T01:13:31 EDT" description="verify sign up link" finished-at="2020-05-04T01:13:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="tearDown" is-config="true" duration-ms="1854" started-at="2020-05-04T01:13:36 EDT" finished-at="2020-05-04T01:13:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="setup" is-config="true" duration-ms="3584" started-at="2020-05-04T01:13:38 EDT" finished-at="2020-05-04T01:13:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="loginTest" duration-ms="9898" started-at="2020-05-04T01:13:41 EDT" description="login test features" finished-at="2020-05-04T01:13:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@30e92cb9]" name="tearDown" is-config="true" duration-ms="2687" started-at="2020-05-04T01:13:51 EDT" finished-at="2020-05-04T01:13:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@547c04c4]" name="setUp" is-config="true" duration-ms="15607" started-at="2020-05-04T01:12:57 EDT" finished-at="2020-05-04T01:13:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@547c04c4]" name="verifyHomePageTitleTest" duration-ms="478" started-at="2020-05-04T01:13:12 EDT" description="verify home page title" finished-at="2020-05-04T01:13:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@547c04c4]" name="verifyHomePageHeaderTest" duration-ms="1891" started-at="2020-05-04T01:13:13 EDT" description="verify home page header" finished-at="2020-05-04T01:13:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@547c04c4]" name="verifyLoggedInUserTest" duration-ms="651" started-at="2020-05-04T01:13:15 EDT" description="verify logged accunt" finished-at="2020-05-04T01:13:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@547c04c4]" name="tearDown" is-config="true" duration-ms="115" started-at="2020-05-04T01:13:54 EDT" finished-at="2020-05-04T01:13:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+    </test> <!-- HubSpot Functional Regression Test - firefox -->
+  </suite> <!-- HubSpot Regression Suite -->
+</testng-results>
